@@ -1,0 +1,17 @@
+cabal-version:      3.0
+name:               prework
+version:            0.1.0.0
+license:            MIT
+author:             TheMhv
+maintainer:         TheMhv@proton.me
+build-type:         Simple
+
+common warnings
+    ghc-options: -Wall
+
+executable prework
+    import:           warnings
+    main-is:          Main.hs
+    build-depends:    base ^>=4.20.2.0
+    hs-source-dirs:   src
+    default-language: GHC2024

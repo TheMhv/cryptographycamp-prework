@@ -1,9 +1,6 @@
 module Main (main) where
 
-import Week1.Exercise1
-import Week1.Exercise3
+import Week1.Exercise5
 
 main :: IO ()
-main = do
-    putStrLn (show (expo 5 3))
-    putStrLn (show (modInverse 3 7))
+main = elGamal 2 467
